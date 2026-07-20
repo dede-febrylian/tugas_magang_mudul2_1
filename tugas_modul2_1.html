@@ -28,15 +28,19 @@
         </article>
     </section>
     <hr>
+    <section>
     <h4>Visi</h4>
-    <p>Menjadi lembaga pendidikan terbaik ditingkat nasional.</p>
+    <article>
+    <p>Menjadi lembaga pendidikan terbaik ditingkat nasional.</p></article>
     <h5>motto</h5>
-    <p>Rumus keberhasialan kami: E=mc<sup>2</sup> dan H<sub>2</sub>O untuk semangat belajar.</p>
+    <article>
+    <p>Rumus keberhasialan kami: E=mc<sup>2</sup> dan H<sub>2</sub>O untuk semangat belajar.</p></article>
     <h6>Contok Kode Program (Ekstrakulikuler Coding)</h6>
     <pre><code>function sapa(){
     console.log("Halo siswa");
    }
    </code></pre>
+</section>
     <hr>
     <table border="1">
         <thead>
@@ -101,6 +105,7 @@
         </tfoot>
     </table>
     <hr>
+    <section id="akademik">
     <h4>Daftar Ekstrakulikuler</h4>
     <ul>
         <li>Basket</li>
@@ -121,28 +126,30 @@
     <dd>Laporan hasil belajar siswa</dd>
     </dt>
     <hr>
-    <h3>Formulir Pendaftaran Siswa Baru</h3>
-    <form>
+    <h3>Formulir Pendaftaran Siswa Baru</h3></section>
+    <form id="dafter">
     <label for="nama">Nama Lengkap:</label>
-    <input type="text" id="nama" placeholder="Masukan nama lengkap"><br>
+    <input type="text" id="nama" placeholder="Masukan nama lengkap" required><br>
     <label for="Email">Email:</label>
-    <input type="email" id="Email" placeholder="Masukan Email"><br>
+    <input type="email" id="Email" placeholder="Masukan Email" required><br>
     <label for="TL">Tanggal Lahir:</label>
-    <input type="date" id="TL" placeholder="Masukan Tanggal Lahir"><br>
+    <input type="date" id="TL" placeholder="Masukan Tanggal Lahir" required><br>
     <label>Jenis kelamin:</label>
-    <input type="radio" id="jk1" name="jenis_kelamin" value="Laki-laki" />
+    <input type="radio" id="jk1" name="jenis_kelamin" value="Laki-laki" required>
     <label for="jk1">Laki-laki</label>
-    <input type="radio" id="jk2" name="jenis_kelamin" value="Perempuan" />
+    <input type="radio" id="jk2" name="jenis_kelamin" value="Perempuan" required>
     <label for="jk2">Perempuan</label><br>
     <label for="UAK">Unggah Akta Kelahiran (PDF):</label>
-    <input type="file" id="UAK" name="akte_kelahiran" accept=".pdf,application/pdf" required><br>
+    <input type="file" id="UAK" name="akte_kelahiran" required><br>
     <label for="UPF">Unggah Pass Foto (JPG/PNG):</label>
-    <input type="file" id="UPF" name="pass_foto" accept="image/jpeg,image/png,image/jpg" required><br>
+    <input type="file" id="UPF" name="pass_foto" required><br>
     <label for="no">Nomor HP:</label>
-    <input type="number" id="no"><br>
+    <input type="number" id="no" required><br>
     <label for="usia">Usia Minimal 6 Tahun</label>
-    <input type="number" id="usia" min="6"><br>
-    <button>daftar</button></form>
+    <input type="number" id="usia" min="6" required><br>
+    <button>daftar</button>
+</form>
+ <figure id="galeri">
     <h3>galeri dan media</h3>
     <h4>Foto kegiatan</h4>
     <img src="https://www.smadwiwarna.sch.id/wp-content/uploads/2021/04/Perpustakaan.jpg" alt="Foto">
@@ -156,7 +163,11 @@
     <h4>Lokasi Sekolah</h4>
     <iframe
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3645.5533394711797!2d114.82759739678954!3d-3.4411900999999987!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2de681d47b0ffd3b%3A0x3b48838a3c931f5b!2sTelkom%20Schools%20-%20SMK%20Telkom%20Banjarbaru!5e1!3m2!1sid!2sid!4v1784009534692!5m2!1sid!2sid"></iframe>
-
+</figure>
+ <footer id="kontak">
+    ©2026 sekolah maju bersama. semua hak dilindungi.
+    <p>Kontak: <a href="">info@sekolahmajubersama.sch.id</a></p>
+ </footer>
 </body>
 
 </html>
