@@ -1,0 +1,60 @@
+#daftar {
+    padding: 40px;
+    border-radius: 20px;
+}
+
+form {
+    border: 2px solid;
+    width: fit-content;
+    padding: 20px;
+}
+.form-group {
+    margin-bottom: 20px;
+}
+
+input:not([type="radio"]):not([type="file"]) {
+    display: flex;
+    padding: 14px 18px;
+    border: 2px solid;
+    border-radius: 14px;
+    font-size: 14px;
+    background: #ffffff;
+    outline: none;
+}
+.radio-group {
+    display: flex;
+    padding: 14px 20px;
+    border-radius: 14px;
+    border: 2px solid;
+    max-width: 200px;
+}
+
+input[type="file"] {
+    display: flex;
+    font-size: 13px;
+    border: 2px dashed;
+    border-radius: 14px;
+}
+
+input[type="file"]::file-selector-button {
+    border: none;
+    padding: 10px 22px;
+    border-radius: 30px;
+    margin-right: 16px;
+    background: gray;
+}
+
+.label-usia {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+
+button {    
+    font-size: 13px;
+    padding: 16px 20px;
+    border-radius: 16px;
+    background: rgb(0, 179, 255);
+    color: #f8faff;
+}
